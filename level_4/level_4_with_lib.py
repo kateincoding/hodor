@@ -11,7 +11,7 @@ from fp.fp import FreeProxy
 success_votes = 0
 error_cases = 0
 user_id = int(input("Please write your ID: "))
-number_print = 30
+number_print = 98
 url = "http://158.69.76.135/level4.php"
 header = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)\
