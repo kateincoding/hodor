@@ -2,7 +2,7 @@
 import requests
 
 success_votes = 0
-user_id = int(input("Please write your ID: "))
+user_id = 3014
 number_print = 1024
 votation = {'id': user_id, 'holdthedoor': 'Submit'}
 

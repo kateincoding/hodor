@@ -5,7 +5,7 @@ import sys
 
 success_votes = 0
 error_cases = 0
-user_id = int(input("Please write your ID: "))
+user_id = 3014
 number_print = 1024
 url = "http://158.69.76.135/level2.php"
 header = {

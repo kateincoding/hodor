@@ -7,6 +7,7 @@ import urllib
 from operator import itemgetter
 import pytesseract as tess
 
+
 success_votes = 0
 error_cases = 0
 user_id = 3014
@@ -24,6 +25,7 @@ flag = 0
 
 
 def decoding_the_captcha(captcha, l1=7):
+    """Method to clean black dots and set to 808080"""
     im = Image.open(captcha)
     im = im.convert("RGB")
     p1 = im.load()
